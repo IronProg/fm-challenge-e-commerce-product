@@ -6,7 +6,7 @@ export default function IconDelete() {
         id="a"
         className="hover:fill-cOrange active:fill-cOrange cursor-pointer"
       />
-      <use fill-rule="nonzero" />
+      <use fillRule="nonzero" />
     </svg>
   );
 }
