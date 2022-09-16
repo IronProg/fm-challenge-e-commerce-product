@@ -1,0 +1,54 @@
+.carousel {
+  @apply relative
+  md:max-w-[420px]
+  lg:w-[520px];
+}
+
+.image-container {
+  @apply relative w-full mx-auto
+  md:w-[80%]
+  lg:w-[100%];
+}
+
+.image {
+  @apply w-full mx-auto h-[300px]
+  md:rounded-xl md:overflow-hidden;
+}
+
+.wrapper {
+  @apply relative w-full overflow-hidden
+  md:flex md:flex-col md:gap-6;
+}
+
+.thumb-stack {
+  @apply hidden relative mx-auto w-[80%] justify-between
+  md:flex
+  lg:w-[100%];
+}
+
+.arrow {
+  @apply absolute top-0 bottom-0 flex items-center justify-center py-0 px-4
+  md:hidden;
+}
+
+.arrow > * {
+  @apply bg-cWhite rounded-3xl h-8 w-8 flex items-center justify-center;
+}
+
+.thumbnail {
+  @apply overflow-hidden rounded-lg flex cursor-pointer h-[60px] w-[60px]
+  lg:h-[90px] lg:w-[90px];
+}
+
+.thumbnail:hover {
+  background-color: #c37500;
+  opacity: 0.5 !important;
+  filter: alpha(opacity=60) !important; /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.active {
+  background-color: #c37500;
+  opacity: 0.5 !important;
+  filter: alpha(opacity=40) !important; /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}

@@ -1,0 +1,20 @@
+.cart {
+  @apply absolute right-2 mx-auto top-16 mt-2 w-[96%] bg-cWhite z-[800] min-h-[250px] shadow-lg rounded-lg
+  md:max-w-[360px];
+}
+
+.header {
+  @apply border-b-[1px] border-cGrayishBlue w-full px-6 py-5;
+}
+
+.body {
+  @apply w-full px-6 py-5 absolute;
+}
+
+.list {
+  @apply mb-8 flex flex-col gap-4;
+}
+
+.center-body {
+  @apply absolute right-0 left-0 top-0 bottom-0 flex items-center justify-center;
+}

@@ -1,0 +1,47 @@
+.lightbox {
+  @apply hidden fixed top-0 right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.8)] justify-center items-center
+  md:flex;
+}
+
+.wrapper {
+  @apply relative w-[500px] h-auto gap-10
+  md:flex md:flex-col;
+}
+
+.image-container {
+  @apply relative h-full w-full mx-auto;
+}
+
+.image {
+  @apply mx-auto w-[500px] h-[400px] md:rounded-xl overflow-hidden;
+}
+
+.arrow {
+  @apply absolute top-0 bottom-0 flex items-center justify-center p-0;
+}
+
+.arrow > * {
+  @apply bg-cWhite rounded-3xl h-8 w-8 flex items-center justify-center;
+}
+
+.thumb-stack {
+  @apply w-full flex justify-between px-12;
+}
+
+.thumbnail {
+  @apply overflow-hidden rounded-lg flex cursor-pointer h-[60px] w-[60px]
+  lg:h-[90px] lg:w-[90px];
+}
+
+.thumbnail:hover {
+  background-color: #c37500;
+  opacity: 0.5 !important;
+  filter: alpha(opacity=60) !important; /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}
+.active {
+  background-color: #c37500;
+  opacity: 0.5 !important;
+  filter: alpha(opacity=40) !important; /* For IE8 and earlier */
+  box-shadow: 0 0 0px #000000 !important;
+}

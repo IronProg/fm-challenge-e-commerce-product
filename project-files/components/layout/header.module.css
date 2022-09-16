@@ -1,0 +1,35 @@
+.nav-container {
+  @apply flex items-stretch h-16 justify-between lg:px-36;
+}
+.nav-section-one {
+  @apply mx-5 flex items-center gap-4;
+}
+
+.menu {
+  @apply relative top-0.5 lg:hidden;
+}
+
+.links {
+  @apply hidden
+  lg:flex items-center self-stretch;
+}
+
+.links > * {
+  @apply flex self-stretch items-center text-cGrayishBlue px-4;
+}
+
+.links > *:hover {
+  @apply border-b-cOrange text-cDarkGrayishBlue border-b-4;
+}
+
+.nav-section-two {
+  @apply relative flex items-stretch gap-4 mr-4;
+}
+
+.badge {
+  @apply absolute left-3 top-3 bg-cOrange text-cWhite px-1.5 text-[0.6rem] rounded-lg;
+}
+
+.avatar {
+  @apply rounded-[50%] overflow-hidden h-[40px] w-[40px] my-auto border-2 border-cWhite hover:border-cOrange;
+}

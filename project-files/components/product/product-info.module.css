@@ -1,0 +1,41 @@
+.info {
+  @apply container md:max-w-[460px] p-4 flex flex-col gap-4;
+}
+
+.company {
+  @apply text-cOrange font-c700 text-xs mt-1;
+  letter-spacing: 2px;
+}
+
+.name {
+  @apply font-c700 text-3xl
+  md:text-4xl;
+}
+
+.prices {
+  @apply flex items-end justify-between
+  md:block;
+}
+
+.final-price {
+  @apply flex items-center justify-between gap-4
+  md:justify-start;
+}
+
+.discount {
+  @apply py-0.5 px-2 rounded bg-cPaleOrange text-cOrange font-c700;
+}
+
+.initial-price {
+  @apply text-cGrayishBlue line-through font-c700;
+}
+
+.actions {
+  @apply grid grid-cols-1
+  md:grid-cols-[40%60%];
+}
+
+.quantity {
+  @apply flex items-center my-6 justify-between px-6
+  md:my-0;
+}

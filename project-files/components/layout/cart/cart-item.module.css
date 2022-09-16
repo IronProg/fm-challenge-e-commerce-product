@@ -1,0 +1,11 @@
+.item {
+  @apply w-full flex items-stretch justify-between;
+}
+
+.image {
+  @apply overflow-hidden rounded-md flex;
+}
+
+.info {
+  @apply flex flex-col justify-between
+}

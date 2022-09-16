@@ -1,0 +1,5 @@
+.product {
+  @apply flex flex-col
+  md:flex-row items-center
+  lg:gap-10;
+}

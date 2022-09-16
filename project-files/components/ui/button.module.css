@@ -1,0 +1,7 @@
+.button {
+  @apply bg-cOrange p-4 rounded-lg w-full hover:bg-cSemiPaleOrange active:bg-cSemiPaleOrange;
+}
+
+.content {
+  @apply flex justify-center items-center text-cWhite font-c700 text-sm gap-3;
+}
