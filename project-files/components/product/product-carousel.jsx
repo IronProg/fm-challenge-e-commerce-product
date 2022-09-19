@@ -77,16 +77,18 @@ export default function Carousel(props) {
           </div>
         </div>
         <button
-          class={classes.arrow + ' left-0'}
+          className={classes.arrow + ' left-0'}
           onClick={() => handleImages(false)}
+          aria-label='Previous Item'
         >
           <div>
             <IconPrevious />
           </div>
         </button>
         <button
-          class={classes.arrow + ' right-0'}
+          className={classes.arrow + ' right-0'}
           onClick={() => handleImages(true)}
+          aria-label='Next Item'
         >
           <div>
             <IconNext />

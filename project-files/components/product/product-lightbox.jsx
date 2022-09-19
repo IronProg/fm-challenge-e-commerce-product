@@ -27,6 +27,7 @@ export default function ProductLightBox(props) {
           <button
             className={`${classes.arrow} left-[-15px]`}
             onClick={(e) => handleImages(false)}
+            aria-label='Previous item'
           >
             <div>
               <IconPrevious />
@@ -35,6 +36,7 @@ export default function ProductLightBox(props) {
           <button
             className={`${classes.arrow} right-[-15px]`}
             onClick={(e) => handleImages(true)}
+            aria-label='Next item'
           >
             <div>
               <IconNext />

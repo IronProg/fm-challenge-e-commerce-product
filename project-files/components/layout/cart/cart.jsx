@@ -24,7 +24,7 @@ export default function Cart() {
               />
             ))}
           </ul>
-          <Button>Checkout</Button>
+          <Button aria-label='Checkout'>Checkout</Button>
         </div>
       ) : (
         <div className={`${classes.body} h-[70%]`}>

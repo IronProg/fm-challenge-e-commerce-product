@@ -51,15 +51,15 @@ export default function ProductInfo(props) {
         </div>
         <div className={classes.actions}>
           <div className={classes.quantity}>
-            <button onClick={() => quantityHandler(-1)}>
+            <button onClick={() => quantityHandler(-1)} aria-label='Reduce quantity'>
               <IconMinus />
             </button>
             <p className="font-c700">{quantity}</p>
-            <button onClick={() => quantityHandler(+1)}>
+            <button onClick={() => quantityHandler(+1)} aria-label='Add quantity'>
               <IconPlus />
             </button>
           </div>
-          <Button onClick={addToCartHandler}>
+          <Button onClick={addToCartHandler} aria-label='Add to Cart'>
             <IconCartWhite /> Add to cart
           </Button>
         </div>

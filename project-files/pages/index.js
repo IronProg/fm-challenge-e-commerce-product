@@ -14,8 +14,8 @@ const item = {
 
 export default function Home() {
   return (
-    <div className="md:flex md:mt-20 md:justify-center md:items-center">
+    <main className="md:flex md:mt-20 md:justify-center md:items-center">
       <ProductCard product={item} />
-    </div>
+    </main>
   );
 }

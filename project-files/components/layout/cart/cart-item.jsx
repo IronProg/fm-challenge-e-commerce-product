@@ -18,7 +18,7 @@ export default function CartItem(props) {
           <b className="text-cBlack">${finalPrice.toFixed(2)}</b>
         </p>
       </div>
-      <button className="flex items-center" onClick={props.onDelete}>
+      <button className="flex items-center" onClick={props.onDelete} aria-label='Delete'>
         <IconDelete />
       </button>
     </div>

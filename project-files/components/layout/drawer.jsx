@@ -4,7 +4,7 @@ export default function Drawer(props) {
   return (
     <div className={classes.drawer} onClick={props.onClose}>
       <div className={classes["drawer-content"]}>
-        <button onClick={props.onClose} className="mb-12">
+        <button onClick={props.onClose} className="mb-12" aria-label='Close'>
           <IconClose />
         </button>
         <ul
